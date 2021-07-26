@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1300px;
+    background-color: rgb(250, 171, 130);
+    margin: 20px auto;
+}
+
+.bg{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 50px 0;
+    text-align: center;
+   
+}
+
+.gif{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.items{
+    flex: 33%;
+    margin: 50px 0;
+}
+
+.items img{
+    height: 160px;
+    width: 300px;
+}
